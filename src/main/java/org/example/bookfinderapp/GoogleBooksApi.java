@@ -16,7 +16,7 @@ import java.net.URLEncoder;
 //This class handles the API call, builds the URL, fetches data, and parses the JSON response into  objects
 public class GoogleBooksApi {
 
-    private static final String API_KEY = "AIzaSyDxz7ndq3tOitDaZdCBIzS5FIvjf2m5Spc";
+    private static final String API_KEY = "YOUR_API_KEY";
 
     public List<Book> getBooks(String title, String authors) {
         String apiURL = buildApiUrl(title, authors);
