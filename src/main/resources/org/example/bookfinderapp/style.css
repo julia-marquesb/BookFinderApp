@@ -1,0 +1,101 @@
+/* General Root Style */
+.root {
+    -fx-background-color: #121212;
+    -fx-font-family: 'Arial';
+    -fx-padding: 20px;
+}
+
+/* Styling for Labels */
+.label {
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+
+}
+
+/*Styling for the App Title*/
+#appTitle{
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-font-family: "Times New Roman";
+    -fx-text-fill: white; /* White text */
+    -fx-padding: 15px;
+    -fx-alignment: center;
+}
+
+/* Styling for Text Fields */
+.text-field {
+    -fx-background-color: #1E1E1E;
+    -fx-text-fill: white;
+    -fx-border-color: #444;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-padding: 8px;
+    -fx-font-size: 12px;
+}
+
+/* Ensure prompt text stays visible when focused */
+.text-field:focused {
+    -fx-prompt-text-fill: grey; /* Placeholder remains visible */
+}
+
+
+/* Styling for Buttons */
+.button {
+    -fx-background-color: #00C853;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-padding: 8px;
+    -fx-font-size: 14px;
+    -fx-cursor: hand; /* Adds hover effect */
+}
+
+.button:hover {
+    -fx-background-color: #009624;
+}
+
+/* Back Button Styling */
+.back-button {
+    -fx-background-color: #FF1744;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-padding: 8px;
+    -fx-font-size: 14px;
+}
+
+.back-button:hover {
+    -fx-background-color: #D50000;
+}
+
+/* Styling for ScrollPane */
+.scroll-pane {
+    -fx-background-color: #121212;
+}
+
+/* Styling for GridPane */
+.grid-pane {
+    -fx-padding: 15px;
+    -fx-hgap: 15px;
+    -fx-vgap: 15px;
+}
+
+/* Styling for Individual Book Cards */
+.book-card {
+    -fx-background-color: #1E1E1E;
+    -fx-border-color: #444;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-padding: 10px;
+    -fx-spacing: 10px;
+    -fx-alignment: center-left;
+}
+
+/* Styling for ImageView (Book Covers) */
+.image-view {
+    -fx-background-radius: 5px;
+    -fx-padding: 5px;
+}
